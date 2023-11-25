@@ -115,22 +115,7 @@ export default function File() {
         // downloadLink.href = URL.createObjectURL(pdfBlob);
         // downloadLink.download = fileName;
         // downloadLink.click();
-        supabase.storage
-          .from("heys")
-          .upload("ComReport/" + fileName, pdfBlob)
-          .then((response) => {
-            if (response.error) {
-              console.error("Error uploading PDF to Supabase:", response.error);
-            } else {
-              console.log(
-                "PDF uploaded to Supabase successfully:",
-                response.data
-              );
-
-              alert("Successfully uploaded");
-              window.location.reload(); // Reload the page
-            }
-          });
+     
       });
   };
 
