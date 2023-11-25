@@ -28,8 +28,8 @@ export default function File() {
   }, []);
 
   const supabase = createClient(
-    "https://auttbujxqybreaoyympt.supabase.co",
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF1dHRidWp4cXlicmVhb3l5bXB0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA1ODU1MjAsImV4cCI6MjAxNjE2MTUyMH0.NIYMnCVsBNdNV4c3CPWp9HFcooh9O4-dYARomO2xFGU"
+    "https://auttbujxqybremaoyympt.supabase.co",
+    "eyJhbGciOiJIUzI1NiIsInR5mcCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF1dHRidWp4cXlicmVhb3l5bXB0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA1ODU1MjAsImV4cCI6MjAxNjE2MTUyMH0.NIYMnCVsBNdNV4c3CPWp9HFcooh9O4-dYARomO2xFGU"
   );
 
   const [images, setImages] = useState(Array(7).fill(null));
